@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Del 24 al 31 ✨</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- GSAP -->
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- FONDOS -->
+  <div class="moon"></div>
+  <div class="stars"></div>
+
+  <!-- APP -->
+  <div class="app">
+
+    <header class="intro">
+      <h1>Un pequeño detalle para ti 🐾</h1>
+      <p>24 de diciembre – 31 de diciembre</p>
+      <span class="hint">Toca una fecha ✨</span>
+    </header>
+
+    <section class="calendar">
+      <div class="day" data-day="24">24<span>⭐</span></div>
+      <div class="day" data-day="25">25<span>🎄</span></div>
+      <div class="day" data-day="26">26<span>🌙</span></div>
+      <div class="day" data-day="27">27<span>🐾</span></div>
+      <div class="day" data-day="28">28<span>⭐</span></div>
+      <div class="day" data-day="29">29<span>🤍</span></div>
+      <div class="day" data-day="30">30<span>✨</span></div>
+      <div class="day final-day" data-day="31">31<span>💫</span></div>
+    </section>
+
+  </div>
+
+  <!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+  <span class="close">×</span>
+
+  <h2 id="modal-title"></h2>
+
+  <img id="modal-img" src="" alt="" />
+
+  <p id="modal-text"></p>
+</div>
+</div>
+
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
