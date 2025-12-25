@@ -36,7 +36,22 @@ Gracias por ser una mujer excepcional y por hacer que esta sea una de muchas Nav
 Te amo mucho, Gioia mía ❤️`,
     img: "IMG/foto24.jpeg"
   },
-  25: { title: "25 de diciembre", text: "Feliz Navidad 🎄 Que esta noche sea tranquila y bonita.", img: "IMG/dia25.png" },
+  25: {
+  title: "25 de diciembre",
+  text: `Hoy es Navidad 🎄
+
+Princesita mía, quiero que este día te envuelva en calma, en luz y en sonrisas sinceras. Que cada momento tenga un poquito de paz y que sientas, incluso en lo pequeño, lo especial que eres.
+
+La Navidad no siempre se vive en los lugares, sino en los corazones que se sienten cerca, aun cuando la distancia existe. Y hoy, mi corazón está contigo.
+
+Quiero dedicarte una parte del libro que guardo en mi corazón:
+“Me enamoré… y me enamoré tanto, que a veces miro a las personas a mi alrededor y les hago el favor de desearles que algún día puedan sentir lo que siento yo contigo.”
+
+Gracias por ser abrigo, por ser ternura, y por llenar mis días de sentido.
+
+Gracias por hacerme tan feliz, mi vida 🤍`,
+  img: "IMG/fondo_pixar2.png"
+},
   26: { title: "26 de diciembre", text: "Hay recuerdos simples que se quedan para siempre.", img: "IMG/dia26.png" },
   27: { title: "27 de diciembre", text: "Admiro más cosas de ti de las que digo.", img: "IMG/dia27.png" },
   28: { title: "28 de diciembre", text: "Ojalá hoy sonrías sin darte cuenta.", img: "IMG/dia28.png" },
