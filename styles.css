@@ -1,170 +1,255 @@
-// ===============================
-// ELEMENTOS
-// ===============================
-const days = document.querySelectorAll(".day");
-const modal = document.getElementById("modal");
-const modalTitle = document.getElementById("modal-title");
-const modalText = document.getElementById("modal-text");
-const modalImg = document.getElementById("modal-img");
-const closeBtn = document.querySelector(".close");
-
-// ===============================
-// CONFIG
-// ===============================
-const DEV_MODE = false; // 👉 cambia a false al final
-const today = new Date();
-const currentDay = today.getDate();
-
-// ===============================
-// CONTENIDO POR DÍA
-// ===============================
-const dayContent = {
-  24: {
-    title: "24 de diciembre",
-    text: `Hoy comienza este pequeño regalo, hecho con todo mi amor.
-
-Princesita mía, hoy es 24 de diciembre y empiezan los días más bonitos, llenos de amor y magia. Quiero empezar agradeciendo todo el amor que me has brindado y el apoyo incondicional que siempre siento de ti.
-
-Eres una mujer espectacular y estoy profundamente agradecida de tenerte en mi vida; eres el regalo más hermoso que podría pedir.
-
-Aunque estemos lejos, quise hacerte un detallito para que sepas que estás en mis pensamientos y en mi corazón. Espero que disfrutes de este pequeño gesto, preparado con mucho amor.
-
-Antes de cerrar esta tarjeta, quiero decirte que te amo profundamente. Gracias a ti, he entendido que la verdadera esencia de la Navidad no está en los regalos bajo el árbol, sino en las personas que nos acompañan.
-
-Gracias por ser una mujer excepcional y por hacer que esta sea una de muchas Navidades juntas.
-
-Te amo mucho, Gioia mía ❤️`,
-    img: "IMG/foto24.jpeg"
-  },
-  25: {
-  title: "25 de diciembre",
-  text: `Hoy es Navidad 🎄
-
-Princesita mía, quiero que este día te envuelva en calma, en luz y en sonrisas sinceras. Que cada momento tenga un poquito de paz y que sientas, incluso en lo pequeño, lo especial que eres.
-
-La Navidad no siempre se vive en los lugares, sino en los corazones que se sienten cerca, aun cuando la distancia existe. Y hoy, mi corazón está contigo.
-
-Quiero dedicarte una parte del libro que guardo en mi corazón:
-“Me enamoré… y me enamoré tanto, que a veces miro a las personas a mi alrededor y les hago el favor de desearles que algún día puedan sentir lo que siento yo contigo.”
-
-Gracias por ser abrigo, por ser ternura, y por llenar mis días de sentido.
-
-Gracias por hacerme tan feliz, mi vida 🤍`,
-  img: "IMG/fondo_pixar2.png"
-},
-  26: {
-  title: "26 de diciembre",
-  text: `Hoy es 26 de diciembre y quiero que esta carta sea un recordatorio de ese momento mágico en que sentí que me enamoraba profundamente de ti. Fue un domingo, después de un evento, y creo que fue en diciembre, porque en enero me estaba negando a aceptar mis sentimientos hacia ti, especialmente imaginando esas típicas escenas tan románticas que de enamorado uno se imagina.
-
-Recuerdo que estabas en la planta baja y subiste al mezanine justo antes de que terminara el culto. Te sentaste a mi lado, nos saludamos y te quedaste conmigo. Me encantó cuando enlazaste tu mano en mi brazo y empezamos a jugar.
-
-No recuerdo por qué estaba molestándote, pero sí recuerdo que intenté hacerte cosquillas en la rodilla y tú me detuviste, diciendo que eras sensible a eso. Me dejó un poco confundida, pero no puedo negar que me puse nerviosa.
-
-Lo que realmente me marcó fue cuando te miré a los ojos y me quedé sin aliento. Sentí una conexión tan fuerte que no puedo explicar lo que pasó en ese momento.
-
-Por un instante, tuve la esperanza de que podríamos ser algo más que amigas, aunque una parte de mí pensaba que no era posible. Pero esa pequeña esperanza fue suficiente para que hoy estemos juntas, celebrando nuestro segundo fin de año como pareja.
-
-No puedo imaginar mi vida sin ti ahora. Te amo cada día más y quiero seguir explorando esta aventura juntas.
-Feliz casi año nuevo, mi amor ♥️`,
-  img: "IMG/foto26.jpeg",
-},
-  27: { title: "27 de diciembre", text: "Admiro más cosas de ti de las que digo.", img: "IMG/dia27.png" },
-  28: { title: "28 de diciembre", text: "Ojalá hoy sonrías sin darte cuenta.", img: "IMG/dia28.png" },
-  29: { title: "29 de diciembre", text: "Gracias por existir, así, tal cual eres.", img: "IMG/dia29.png" },
-  30: { title: "30 de diciembre", text: "Mañana termina este año… y sigo agradeciendo.", img: "IMG/dia30.png" },
-  31: { title: "31 de diciembre", text: "Este no es un final. Es solo una pausa para abrazar lo que viene 💫", img: "IMG/dia31.png" }
-};
-
-// ===============================
-// TARJETAS
-// ===============================
-days.forEach(day => {
-  const d = parseInt(day.dataset.day);
-
-// 🔒 Bloqueo por fecha (se desbloquea a las 12:00 am)
-if (!DEV_MODE && d > currentDay) {
-  day.classList.add("locked");
-  return;
+/* ===============================
+   RESET
+=============================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
 
-  day.addEventListener("click", () => {
-    const content = dayContent[d];
-    if (!content) return;
+/* ===============================
+   FONDO CON BLUR
+=============================== */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("IMG/fondo_pixar3.png") center / cover no-repeat;
+  filter: blur(6px);
+  transform: scale(1.08);
+  z-index: -3;
+}
 
-    // ✨ Animación tarjeta
-    gsap.fromTo(day, { scale: 1 }, { scale: 0.92, duration: 0.2, yoyo: true, repeat: 1 });
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 12, 25, 0.65);
+  z-index: -2;
+}
 
-    // 🧠 Título
-    modalTitle.textContent = content.title;
+/* ===============================
+   APP
+=============================== */
+.app {
+  min-height: 100vh;
+  padding: 120px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
 
-    // 🧹 Limpiar texto
-    modalText.innerHTML = "";
+/* ===============================
+   INTRO
+=============================== */
+.intro {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
 
-    // ✍️ Crear líneas
-    const lines = content.text.split("\n");
+.intro h1 {
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.6);
+}
 
-    lines.forEach(line => {
-      const p = document.createElement("p");
-      p.className = "modal-line";
-      p.textContent = line;
-      modalText.appendChild(p);
-    });
+.intro p,
+.hint {
+  font-size: 14px;
+  opacity: 0.85;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
 
-    // 🖼 Imagen
-    modalImg.src = content.img;
-    modalImg.alt = content.title;
-    modalImg.style.display = "block";
+/* ===============================
+   CALENDARIO
+=============================== */
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px;
+  max-width: 760px;
+  width: 100%;
+  margin: 40px auto 0;
+}
 
-    // 📦 Mostrar modal
-    modal.style.display = "flex";
+.day {
+  height: 180px;
+  border-radius: 28px;
+  background: rgba(12, 14, 28, 0.88);
+  backdrop-filter: blur(2px);
 
-    // 🎬 Animación modal
-    gsap.from(".modal-content", {
-      y: 40,
-      opacity: 0,
-      scale: 0.9,
-      duration: 0.6,
-      ease: "power3.out"
-    });
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    // 🖼 Imagen suave
-    gsap.fromTo("#modal-img",
-      { opacity: 0, y: 12 },
-      { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }
-    );
+  font-size: 48px;
+  color: #fff;
+  cursor: pointer;
 
-    // ✨ Texto línea por línea
-    gsap.fromTo(".modal-line",
-      { opacity: 0, y: 12 },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 0.6,
-        stagger: 0.12,
-        delay: 0.4,
-        ease: "expo.out"
-      }
-    );
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-    // 🌟 Efecto especial día 31
-    if (d === 31) {
-      gsap.fromTo(".modal-content",
-        { boxShadow: "0 0 0 rgba(255,255,255,0)" },
-        {
-          boxShadow: "0 0 30px rgba(255,255,255,0.35)",
-          duration: 2,
-          repeat: -1,
-          yoyo: true
-        }
-      );
-    }
-  });
-});
+.day span {
+  font-size: 18px;
+  margin-top: 8px;
+  opacity: 0.7;
+}
 
-// ===============================
-// CERRAR MODAL
-// ===============================
-closeBtn.addEventListener("click", () => {
-  modal.style.display = "none";
-});
+.day:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+.day.locked {
+  opacity: 0.35;
+  pointer-events: none;
+  filter: grayscale(100%);
+}
+
+.day.locked::after {
+  content: "Aún no 🤍";
+  position: absolute;
+  bottom: 15px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* ===============================
+   MODAL
+=============================== */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #fff;
+  color: #111;
+  border-radius: 24px;
+  padding: 30px 26px;
+  width: 90%;
+  max-width: 420px;
+
+  max-height: 80vh;
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  text-align: center;
+  position: relative;
+}
+
+.modal-content h2 {
+  margin-bottom: 10px;
+}
+
+/* Imagen */
+#modal-img {
+  max-width: 100%;
+  max-height: 260px;
+  object-fit: contain;
+  border-radius: 16px;
+  margin: 16px 0;
+  display: block;
+}
+
+/* Texto */
+#modal-text {
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.modal-line {
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+/* Botón cerrar */
+.close {
+  position: absolute;
+  top: 14px;
+  right: 18px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* ===============================
+   ESTRELLAS
+=============================== */
+.stars {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+
+  background-image:
+    radial-gradient(1px 1px at 20% 30%, #fff, transparent),
+    radial-gradient(1px 1px at 70% 20%, #fff, transparent),
+    radial-gradient(1px 1px at 40% 80%, #fff, transparent),
+    radial-gradient(1px 1px at 60% 20%, #fff, transparent),
+    radial-gradient(1px 1px at 20% 60%, #fff, transparent),
+    radial-gradient(1px 1px at 80% 60%, #fff, transparent);
+
+  opacity: 0.6;
+  animation: starsFloat 60s linear infinite;
+}
+
+@keyframes starsFloat {
+  from { transform: translateY(0); }
+  to { transform: translateY(-120px); }
+}
+
+/* ===============================
+   RESPONSIVE
+=============================== */
+@media (max-width: 900px) {
+  .calendar {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .calendar {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  .day {
+    height: 160px;
+    font-size: 40px;
+  }
+
+  .intro h1 {
+    font-size: 22px;
+  }
+
+  .app {
+    padding: 90px 20px 30px;
+  }
+}
+
+@media (max-width: 380px) {
+  .calendar {
+    grid-template-columns: 1fr;
+  }
+}
