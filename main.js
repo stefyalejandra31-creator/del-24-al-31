@@ -52,7 +52,22 @@ Gracias por ser abrigo, por ser ternura, y por llenar mis días de sentido.
 Gracias por hacerme tan feliz, mi vida 🤍`,
   img: "IMG/fondo_pixar2.png"
 },
-  26: { title: "26 de diciembre", text: "Hay recuerdos simples que se quedan para siempre.", img: "IMG/dia26.png" },
+  26: {
+  title: "26 de diciembre",
+  text: `Hoy es 26 de diciembre y quiero que esta carta sea un recordatorio de ese momento mágico en que sentí que me enamoraba profundamente de ti. Fue un domingo, después de un evento, y creo que fue en diciembre, porque en enero me estaba negando a aceptar mis sentimientos hacia ti, especialmente imaginando esas típicas escenas tan románticas que de enamorado uno se imagina.
+
+Recuerdo que estabas en la planta baja y subiste al mezanine justo antes de que terminara el culto. Te sentaste a mi lado, nos saludamos y te quedaste conmigo. Me encantó cuando enlazaste tu mano en mi brazo y empezamos a jugar.
+
+No recuerdo por qué estaba molestándote, pero sí recuerdo que intenté hacerte cosquillas en la rodilla y tú me detuviste, diciendo que eras sensible a eso. Me dejó un poco confundida, pero no puedo negar que me puse nerviosa.
+
+Lo que realmente me marcó fue cuando te miré a los ojos y me quedé sin aliento. Sentí una conexión tan fuerte que no puedo explicar lo que pasó en ese momento.
+
+Por un instante, tuve la esperanza de que podríamos ser algo más que amigas, aunque una parte de mí pensaba que no era posible. Pero esa pequeña esperanza fue suficiente para que hoy estemos juntas, celebrando nuestro segundo fin de año como pareja.
+
+No puedo imaginar mi vida sin ti ahora. Te amo cada día más y quiero seguir explorando esta aventura juntas.
+Feliz casi año nuevo, mi amor ♥️`,
+  img: "IMG/foto26.jpeg",
+},
   27: { title: "27 de diciembre", text: "Admiro más cosas de ti de las que digo.", img: "IMG/dia27.png" },
   28: { title: "28 de diciembre", text: "Ojalá hoy sonrías sin darte cuenta.", img: "IMG/dia28.png" },
   29: { title: "29 de diciembre", text: "Gracias por existir, así, tal cual eres.", img: "IMG/dia29.png" },
