@@ -68,7 +68,28 @@ No puedo imaginar mi vida sin ti ahora. Te amo cada día más y quiero seguir ex
 Feliz casi año nuevo, mi amor ♥️`,
   img: "IMG/foto26.jpeg",
 },
-  27: { title: "27 de diciembre", text: "Admiro más cosas de ti de las que digo.", img: "IMG/dia27.png" },
+  27: {
+  title: "27 de diciembre",
+  text: `Nunca fui buena diciendo lo que pienso. Muchas veces creo que ya lo dije, pero en realidad solo lo pensé.
+
+Como cuando estás frente a mí, te veo hermosa y pienso lo bella que estás, pero no lo digo. No porque no me lo parezca, sino porque me quedo estúpida mirándote.
+
+Como aquella vez que te acompañé a la peluquería, o cuando estabas en la renovación de votos de tus padres, con ese vestido precioso y un modelo increíble. Lo pensé tanto, que no sé si por eso nunca lo mencioné.
+
+Quiero decir… no soy muy buena explicando lo que pienso, pero hoy quiero usar esta carta para decir aquello que nunca dije.
+
+Como cuando me recosté sobre tu pecho mientras veíamos la cancha de fútbol. Nunca antes me habían parecido lindos los latidos de un corazón, pero escuché los tuyos y sentí algo tan íntimo contigo… ojalá nadie más pueda escucharlos como yo.
+
+Hay tantas cosas. Como cuando te miro recostada, distraída en el celular, y no puedo evitar pensar en lo afortunada que soy, en lo especial que me haces sentir y en lo increíble que eres para mí.
+
+No lo he dicho, pero hay veces que no soporto verte enfermita o triste. Si tuviera el poder de quitarte cada herida y cargarla con su peso, juro que lo haría.
+
+Te escribo esto con la intención de que entiendas que por ti doy todo lo que haga falta.
+
+Te amo con todo mi corazón, preciosa.`,
+  img: "IMG/foto27.jpeg"
+}
+,
   28: { title: "28 de diciembre", text: "Ojalá hoy sonrías sin darte cuenta.", img: "IMG/dia28.png" },
   29: { title: "29 de diciembre", text: "Gracias por existir, así, tal cual eres.", img: "IMG/dia29.png" },
   30: { title: "30 de diciembre", text: "Mañana termina este año… y sigo agradeciendo.", img: "IMG/dia30.png" },
