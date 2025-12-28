@@ -90,7 +90,16 @@ Te amo con todo mi corazón, preciosa.`,
   img: "IMG/foto27.jpeg"
 }
 ,
-  28: { title: "28 de diciembre", text: "Ojalá hoy sonrías sin darte cuenta.", img: "IMG/dia28.png" },
+28: {title: "28 de diciembre",
+  text: `Hay noches que no se compran a ninguna, sabes lo que pensé cuando miré esta imagen: un cielo lleno de luces que no se quedan quietas, una ciudad que respira tranquila. Un cielo que arde en colores, parece que todo está lleno de vida. No pude evitar pensar en ti, Van Gogh
+
+Pensaba hace un momento: El amor no siempre es parejo, es ir más allá de los pensamientos que no necesitan palabras. Es sentir que el mundo puede contigo, pero tener en donde descansar, tú eres mi lugar seguro. Y te quiero agradecer porque a veces eres luz incluso cuando todo parece oscuro.
+
+Puedo decir que eres ese punto de esperanza delicada que siempre me acompaña, las estrellas de esta noche no necesitan gritar para brillar. Y en el amor, tú haz sabido marcar la diferencia en mi vida. No con regalos, no con material, es tu manera de amar. Si alguna vez, en medio de cualquier situación, en algún cielo revuelto, oscuro, nublado o despejado, blanco, azul o gris, dudas de mi amor, recuerda: yo siempre te elegiría a ti como mi lugar de calma.
+
+Antes de terminar esta carta, quiero decirte que amarte se siente así, como una noche infinita, hermosa, viva, llena de colores. Te amo, mi amor.`,
+  img: "IMG/foto28.jpeg"
+},
   29: { title: "29 de diciembre", text: "Gracias por existir, así, tal cual eres.", img: "IMG/dia29.png" },
   30: { title: "30 de diciembre", text: "Mañana termina este año… y sigo agradeciendo.", img: "IMG/dia30.png" },
   31: { title: "31 de diciembre", text: "Este no es un final. Es solo una pausa para abrazar lo que viene 💫", img: "IMG/dia31.png" }
