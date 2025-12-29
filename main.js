@@ -100,7 +100,21 @@ Puedo decir que eres ese punto de esperanza delicada que siempre me acompaña, l
 Antes de terminar esta carta, quiero decirte que amarte se siente así, como una noche infinita, hermosa, viva, llena de colores. Te amo, mi amor.`,
   img: "IMG/foto28.jpeg"
 },
-  29: { title: "29 de diciembre", text: "Gracias por existir, así, tal cual eres.", img: "IMG/dia29.png" },
+  29: { title: "29 de diciembre",
+    text: `Mi amor... y pensar que me negaba a sentir algo, y terminé sintiendo de todo. Creo que me salió bien, porque amo sentir esto contigo, y quiero que sea para siempre.
+
+Eres la persona más especial que tengo en mi vida. Gracias por brindarme de tu tiempo en cualquier situación en la que nos encontremos, tristes o felices, molestas o contentas, en persona o a través de una pantalla. Me has dedicado tanto que con el simple hecho de cerrar mis ojos y pensar en lo afortunada que soy al tenerte a mi lado, es suficiente para despertar cada día y amarte aún más que ayer.
+
+Te quiero con todos tus cambios de humor, con tus dramas, con tus defectos... aunque pensándolo bien, eres perfecta tal como eres. Disfruto la forma en que me haces reír, la forma en que me apoyas, y la forma en que me amas.
+
+Te amo con todos tus gustos musicales, con las afinidades de tus películas favoritas, con tu obsesión por la lectura, te quiero en todas tus versiones. Y déjame decirte que quiero ser la que te haga sonreír cuando estés triste, la que te abrace cuando necesites consuelo, y la que celebre contigo, tus momentos de triunfo.
+
+De verdad, es precioso tener a alguien como tú, con la capacidad y la facilidad de robarme una sonrisa incluso cuando estamos a kilómetros de distancia. Y me encanta, el saber que puedo hacerte sonreír también, incluso desde la distancia. Para mí, también es un regalo poder compartir momentos contigo.
+
+Quiero que sepas que estás en mis pensamientos y en mi corazón, incluso cuando no estoy físicamente contigo. Te mando todo mi amor y mi cariño, y espero que pronto podamos estar juntas de nuevo, celebrando un nuevo año a tu lado.
+
+Te amo, mi amor, y quiero pasar el resto de mi vida contigo.`,
+    img: "IMG/foto29.jpeg" },
   30: { title: "30 de diciembre", text: "Mañana termina este año… y sigo agradeciendo.", img: "IMG/dia30.png" },
   31: { title: "31 de diciembre", text: "Este no es un final. Es solo una pausa para abrazar lo que viene 💫", img: "IMG/dia31.png" }
 };
