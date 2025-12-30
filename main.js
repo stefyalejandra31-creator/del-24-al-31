@@ -115,7 +115,23 @@ Quiero que sepas que estás en mis pensamientos y en mi corazón, incluso cuando
 
 Te amo, mi amor, y quiero pasar el resto de mi vida contigo.`,
     img: "IMG/foto29.jpeg" },
-  30: { title: "30 de diciembre", text: "Mañana termina este año… y sigo agradeciendo.", img: "IMG/dia30.png" },
+  30: { title: "30 de diciembre",
+    text: `Mi amor! Estamos a un día de culminar este año...
+Te he agradecido por todo lo que me has brindado, pero en esta carta, quiero exponerte algunos de mis anhelos junto a ti.
+Nunca me mentalicé niños, ni en ningún momento un matrimonio, reconozco que soy un poco áspera para los pequeños, y que carezco de paciencia. En mi pensar el compromiso no estaba en una firma sobre un papel, sino en la responsabilidad que tomas sobre el sentir de la otra persona.
+
+Sin embargo, hace ya varios meses que no pienso igual, hace ya varios meses que miro el concepto de una familia desde otro punto de vista, hace ya meses que no puedo evitar verte cerca de algún pequeño y pensar "Es que siendo madre se vería hermosa".
+
+Reconozco que desde que ingresaste a mi vida los cambios nunca faltaron, dejé hábitos que me hacían daño, y empecé a trabajar en mi, aunque en un principio lo hacía por ti, me permitiste entender que no es por los demás sino por mi mismo.
+
+Y hoy, no puedo mirar hacia nuestro futuro, sin imaginar a dos pequeños de nuestra mano (Aunque a veces te pido tres)
+Solo quiero vivir una vida a tu lado, construir un hogar, y que nuestra familia sea el centro de nuestra vida. 
+
+Y si me preguntas, qué es lo que anhelo contigo?
+Que mi pequeña princesita tenga tus ojos. Que mi pequeñito sepa amar y cuidar a su hermanita. Que mi esposa tenga una familia bonita. Que mi esposa sea feliz. Que mi hogar se mantenga siempre unido. Que el amor nunca falte en nuestra casa.
+
+Te amo, y todo esto solamente lo he anhelado contigo, y sinceramente, no quiero idealizarlo con nadie más. Un beso Giogia mia ♥️`,
+    img: "IMG/foto30.jpeg" },
   31: { title: "31 de diciembre", text: "Este no es un final. Es solo una pausa para abrazar lo que viene 💫", img: "IMG/dia31.png" }
 };
 
