@@ -132,7 +132,10 @@ Que mi pequeña princesita tenga tus ojos. Que mi pequeñito sepa amar y cuidar 
 
 Te amo, y todo esto solamente lo he anhelado contigo, y sinceramente, no quiero idealizarlo con nadie más. Un beso Giogia mia ♥️`,
     img: "IMG/foto30.jpeg" },
-  31: { title: "31 de diciembre", text: "Este no es un final. Es solo una pausa para abrazar lo que viene 💫", img: "IMG/dia31.png" }
+  31: { title: "31 de diciembre",
+    text: `Este no es un final. Es solo una pausa para abrazar lo que viene 💫
+    Hey! esta carta está muy pesada... Espera un poco más!`,
+    img: "IMG/foto31.jpeg" }
 };
 
 // ===============================
