@@ -133,9 +133,22 @@ Que mi pequeña princesita tenga tus ojos. Que mi pequeñito sepa amar y cuidar 
 Te amo, y todo esto solamente lo he anhelado contigo, y sinceramente, no quiero idealizarlo con nadie más. Un beso Giogia mia ♥️`,
     img: "IMG/foto30.jpeg" },
   31: { title: "31 de diciembre",
-    text: `Este no es un final. Es solo una pausa para abrazar lo que viene 💫
-    Hey! esta carta está muy pesada... Espera un poco más!`,
-    img: "IMG/foto31.jpeg" }
+    text: `He dicho tantas veces "te amo", que ya he perdido la cuenta, y contando, tal vez no alcancemos. Y aún así, te lo repetiría 50 años más y cuando esos 50 terminen te diré "Ya vez? Te dije que eras el amor de mi vida".
+
+Tengo tantas cosas pensadas para las dos, anhelos guardados en lo más profundo de mi corazón, y planes a futuro que solo quiero cumplirlos a tu lado. Aunque sé que debo aterrizar y pensar que no será fácil, el hecho de imaginar lo felices que podemos llegar a ser, es motivo suficiente para sentirme en las nubes.
+
+Hoy termina un año, y damos inicio a otro, y quiero agradecerte, porque no solo me has brindado un año increíble, me has hecho mejor persona, indiscutiblemente, pese a tantos problemas, sé que de lidiar tampoco soy fácil, pero has sabido amarme como al parecer necesitaba. Te lo he dicho, varias veces, pero es que en realidad si que eres mi lugar seguro, desde que me he mostrado frágil, vulnerable, sin armadura, me he dado cuenta de que realmente esto era lo que necesitaba, seré sincera, nunca antes me había sentido tan amada, y te agradezco, porque hoy sé lo que merezco y lo que quiero, y como quiero que me quieran.
+
+Has hecho de mi una mejor versión, día a día, me has corregido en lo que hago mal, y me has halagado cuando lo hago bien. Ja! Eres mi mayor fan, y eso es extremadamente precioso. Por favor, no te apartes de mi jamás, se vienen cosas nuevas, tal vez más complicadas, o quizá momentos muchísimo mejores, pero por favor, no sueltes mi mano, y vamos por un año más, pero vamos juntas.
+
+Lo que añadiré a continuación, es una parte de mi que intentó hacer su mejor esfuerzo jeje a veces me da penita porque sé que eres 10 veces mejor en esto, pero creeme, lo hago con mucho amor.
+
+Te amo mi vida, y que tengas feliz año nuevo! ♥️
+
+Aquí te dejo algo que hice con todo mi corazón:
+https://drive.google.com/drive/folders/1KzKc0LdNpVMJF7wiXH56CN1W604zOU_9`
+,
+    img: "IMG/dia31.jpeg" }
 };
 
 // ===============================
