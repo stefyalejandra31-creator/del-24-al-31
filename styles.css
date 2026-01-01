@@ -174,15 +174,29 @@ body::after {
 
 /* Texto */
 #modal-text {
+  width: 100%;
+  max-width: 360px;      /* controla el ancho del texto */
+  margin: 0 auto;
+
   font-size: 15px;
-  line-height: 1.6;
-  text-align: center;
+  line-height: 1.7;
+
+  text-align: left;      /* 👈 CLAVE: cartas se leen mejor así */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
+#modal-text a {
+  color: #1a73e8;
+  text-decoration: underline;
+  word-break: break-all; /* 👈 evita que el link se salga */
+}
+
 
 .modal-line {
   margin-bottom: 14px;
-  line-height: 1.5;
+  line-height: 1.7;
 }
+
 
 /* Botón cerrar */
 .close {
