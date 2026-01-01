@@ -11,7 +11,7 @@ const closeBtn = document.querySelector(".close");
 // ===============================
 // CONFIG
 // ===============================
-const DEV_MODE = false; // 👉 cambia a false al final
+const DEV_MODE = true; // 👉 cambia a false al final
 const today = new Date();
 const currentDay = today.getDate();
 
