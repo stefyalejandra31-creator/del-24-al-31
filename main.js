@@ -8,12 +8,6 @@ const modalText = document.getElementById("modal-text");
 const modalImg = document.getElementById("modal-img");
 const closeBtn = document.querySelector(".close");
 
-// ===============================
-// CONFIG
-// ===============================
-const DEV_MODE = true; // 👉 cambia a false al final
-const today = new Date();
-const currentDay = today.getDate();
 
 // ===============================
 // CONTENIDO POR DÍA
@@ -157,11 +151,7 @@ https://drive.google.com/drive/folders/1KzKc0LdNpVMJF7wiXH56CN1W604zOU_9`
 days.forEach(day => {
   const d = parseInt(day.dataset.day);
 
-// 🔒 Bloqueo por fecha (se desbloquea a las 12:00 am)
-if (!DEV_MODE && d > currentDay) {
-  day.classList.add("locked");
-  return;
-}
+
 
 
   day.addEventListener("click", () => {
